@@ -5,13 +5,20 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-eslint": "^8.2.6",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.77.0",
     "jest": "^22.4.3",
     "parcel-bundler": "^1.7.0"
   }
